@@ -1,0 +1,19 @@
+#ifndef WERNICKE
+#define WERNICKE
+
+#include <string>
+
+typedef void (*hearFunc)(string s);
+
+class Wernicke {
+public:
+    Wernicke();
+   ~Wernicke();
+    void initListener(hearFunc h);
+    string getString(File* rawAudio);
+private:
+    hearFunc heard;
+};
+
+#endif
+    

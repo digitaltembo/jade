@@ -1,0 +1,5 @@
+Command.o
+FileSystem.o
+Terminal.o
+XComp.o
+XWindow.o
